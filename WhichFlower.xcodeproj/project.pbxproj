@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2073DD8CC02405AA4A091BAB /* Pods_WhichFlower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A817D87057819C5797355BF /* Pods_WhichFlower.framework */; };
+		C28E326C24A251030074B34B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E326B24A251030074B34B /* AppDelegate.swift */; };
+		C28E326E24A251030074B34B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E326D24A251030074B34B /* SceneDelegate.swift */; };
+		C28E327024A251030074B34B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E326F24A251030074B34B /* ViewController.swift */; };
+		C28E327324A251030074B34B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28E327124A251030074B34B /* Main.storyboard */; };
+		C28E327524A251080074B34B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28E327424A251080074B34B /* Assets.xcassets */; };
+		C28E327824A251080074B34B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28E327624A251080074B34B /* LaunchScreen.storyboard */; };
+		C28E328824A26B8A0074B34B /* FlowerClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C28E328724A26B8A0074B34B /* FlowerClassifier.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A817D87057819C5797355BF /* Pods_WhichFlower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhichFlower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E32121FCE06D00C0310544 /* Pods-WhichFlower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhichFlower.debug.xcconfig"; path = "Target Support Files/Pods-WhichFlower/Pods-WhichFlower.debug.xcconfig"; sourceTree = "<group>"; };
+		C28E326824A251030074B34B /* WhichFlower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhichFlower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28E326B24A251030074B34B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C28E326D24A251030074B34B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C28E326F24A251030074B34B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C28E327224A251030074B34B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C28E327424A251080074B34B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C28E327724A251080074B34B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C28E327924A251080074B34B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28E328724A26B8A0074B34B /* FlowerClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerClassifier.mlmodel; sourceTree = "<group>"; };
+		F1CF8497B7C8D6F669ECAD1D /* Pods-WhichFlower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhichFlower.release.xcconfig"; path = "Target Support Files/Pods-WhichFlower/Pods-WhichFlower.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C28E326524A251030074B34B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2073DD8CC02405AA4A091BAB /* Pods_WhichFlower.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51B87E2529E14A7B5866E3B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79E32121FCE06D00C0310544 /* Pods-WhichFlower.debug.xcconfig */,
+				F1CF8497B7C8D6F669ECAD1D /* Pods-WhichFlower.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		73BF1095801E6621A342991E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A817D87057819C5797355BF /* Pods_WhichFlower.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C28E325F24A251030074B34B = {
+			isa = PBXGroup;
+			children = (
+				C28E326A24A251030074B34B /* WhichFlower */,
+				C28E326924A251030074B34B /* Products */,
+				51B87E2529E14A7B5866E3B0 /* Pods */,
+				73BF1095801E6621A342991E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C28E326924A251030074B34B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C28E326824A251030074B34B /* WhichFlower.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C28E326A24A251030074B34B /* WhichFlower */ = {
+			isa = PBXGroup;
+			children = (
+				C28E326B24A251030074B34B /* AppDelegate.swift */,
+				C28E326D24A251030074B34B /* SceneDelegate.swift */,
+				C28E328324A26A640074B34B /* Model */,
+				C28E328224A26A500074B34B /* View */,
+				C28E328124A26A420074B34B /* Controller */,
+				C28E328424A26A990074B34B /* Resources */,
+				C28E327924A251080074B34B /* Info.plist */,
+				C28E328724A26B8A0074B34B /* FlowerClassifier.mlmodel */,
+			);
+			path = WhichFlower;
+			sourceTree = "<group>";
+		};
+		C28E328124A26A420074B34B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C28E326F24A251030074B34B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C28E328224A26A500074B34B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C28E327124A251030074B34B /* Main.storyboard */,
+				C28E327624A251080074B34B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C28E328324A26A640074B34B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C28E328424A26A990074B34B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C28E327424A251080074B34B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C28E326724A251030074B34B /* WhichFlower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28E327C24A251080074B34B /* Build configuration list for PBXNativeTarget "WhichFlower" */;
+			buildPhases = (
+				2798CCC162BBE3B50A5E26BF /* [CP] Check Pods Manifest.lock */,
+				C28E326424A251030074B34B /* Sources */,
+				C28E326524A251030074B34B /* Frameworks */,
+				C28E326624A251030074B34B /* Resources */,
+				C7891B7F4D5FA4B90FEED120 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhichFlower;
+			productName = WhichFlower;
+			productReference = C28E326824A251030074B34B /* WhichFlower.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C28E326024A251030074B34B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Madhu;
+				TargetAttributes = {
+					C28E326724A251030074B34B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C28E326324A251030074B34B /* Build configuration list for PBXProject "WhichFlower" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C28E325F24A251030074B34B;
+			productRefGroup = C28E326924A251030074B34B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C28E326724A251030074B34B /* WhichFlower */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C28E326624A251030074B34B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28E327824A251080074B34B /* LaunchScreen.storyboard in Resources */,
+				C28E327524A251080074B34B /* Assets.xcassets in Resources */,
+				C28E327324A251030074B34B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2798CCC162BBE3B50A5E26BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhichFlower-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7891B7F4D5FA4B90FEED120 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhichFlower/Pods-WhichFlower-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhichFlower/Pods-WhichFlower-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhichFlower/Pods-WhichFlower-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C28E326424A251030074B34B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28E328824A26B8A0074B34B /* FlowerClassifier.mlmodel in Sources */,
+				C28E327024A251030074B34B /* ViewController.swift in Sources */,
+				C28E326C24A251030074B34B /* AppDelegate.swift in Sources */,
+				C28E326E24A251030074B34B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C28E327124A251030074B34B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C28E327224A251030074B34B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C28E327624A251080074B34B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C28E327724A251080074B34B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C28E327A24A251080074B34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C28E327B24A251080074B34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C28E327D24A251080074B34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79E32121FCE06D00C0310544 /* Pods-WhichFlower.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhichFlower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.madhu.WhichFlower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C28E327E24A251080074B34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1CF8497B7C8D6F669ECAD1D /* Pods-WhichFlower.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhichFlower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.madhu.WhichFlower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C28E326324A251030074B34B /* Build configuration list for PBXProject "WhichFlower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28E327A24A251080074B34B /* Debug */,
+				C28E327B24A251080074B34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28E327C24A251080074B34B /* Build configuration list for PBXNativeTarget "WhichFlower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28E327D24A251080074B34B /* Debug */,
+				C28E327E24A251080074B34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C28E326024A251030074B34B /* Project object */;
+}
